@@ -17,7 +17,7 @@ jobs:
       - run
           name: コードの取得
           command: |
-            '^^^That should look familiar^^^'
+            echo '^^^That should look familiar^^^'
   Run-With-Node:
     docker:
       - image: circleci/node:10-browsers
