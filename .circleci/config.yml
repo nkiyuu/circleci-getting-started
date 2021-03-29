@@ -25,7 +25,7 @@ jobs:
       - run:
           name: ノードを持つコンテナでの実行
           command: |
-            node -version
+            node -v
   Now-Complete:
     docker:
       - image: alpine:3.7
